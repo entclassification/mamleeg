@@ -1,0 +1,24 @@
+program: mamltest.py
+method: grid
+project: 250MCEEG
+metric:
+  goal: minimize
+  name: Val_Loss
+parameters:
+  outer_lr:
+    values: [0.01]
+  inner_lr:
+    values: [0.01]
+  mom:
+    values: [1e-3]
+  use_filter:
+    values: [False]
+  epochs:
+    values: [200]
+  val_inner_iters:
+    values: [8]
+  train_inner_iters:
+    values: [16]
+  tasks:
+    values: [['All', [18]], ["All",[18,1,50,22,35]]]
+

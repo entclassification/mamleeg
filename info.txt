@@ -1,0 +1,12 @@
+Contains artifacts, so removed
+
+CLASubjectF1509163StLRHand
+5F-SubjectA-160405-5St-SGLHand
+FREEFORMSubjectB1511112StLRHand
+FREEFORMSubjectC1512082StLRHand
+FREEFORMSubjectC1512102StLRHand
+5F-SubjectF-160210-5St-SGLHand-HFREQ
+CLASubjectC1512233StLRHand
+
+
+Wandb-ng 0.27 works best
